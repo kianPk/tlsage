@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tlsage"
+version = "1.0.0"
+description = "Check TLS certificate expiry for any host — tiny ops CLI"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Kian Zarandi" }]
+keywords = ["tls", "ssl", "certificate", "ops", "cli"]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/kianPk/tlsage"
+
+[project.scripts]
+tlsage = "tlsage:main"
+
+[tool.setuptools]
+py-modules = ["tlsage"]
