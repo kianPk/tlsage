@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tlsage"
-version = "1.0.0"
+version = "1.1.0"
 description = "Check TLS certificate expiry for any host — tiny ops CLI"
 readme = "README.md"
 requires-python = ">=3.9"

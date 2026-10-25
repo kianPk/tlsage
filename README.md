@@ -4,6 +4,7 @@
 
 One command for ops, monitors, and “why is prod angry” moments.
 
+[![CI](https://github.com/kianPk/tlsage/actions/workflows/ci.yml/badge.svg)](https://github.com/kianPk/tlsage/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)](https://www.python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
@@ -19,8 +20,9 @@ python tlsage.py github.com
 
 ```bash
 tlsage github.com
-tlsage example.com -w 14          # warn if ≤ 14 days
+tlsage example.com --warn-days 14 # exit 1 if ≤ 14 days remain
 tlsage api.myapp.com -p 8443
+tlsage github.com --json          # JSON for monitors / CI
 ```
 
 ### Sample

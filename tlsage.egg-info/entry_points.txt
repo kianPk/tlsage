@@ -1,0 +1,2 @@
+[console_scripts]
+tlsage = tlsage:main
