@@ -1,9 +1,0 @@
-LICENSE
-README.md
-pyproject.toml
-tlsage.py
-tlsage.egg-info/PKG-INFO
-tlsage.egg-info/SOURCES.txt
-tlsage.egg-info/dependency_links.txt
-tlsage.egg-info/entry_points.txt
-tlsage.egg-info/top_level.txt
